@@ -36,6 +36,17 @@ const Toolbar = () => {
                      }}
             >Movies</NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink to="/portfolio" className="nav-link"
+                     style={({ isActive, isPending, isTransitioning }) => {
+                       return {
+                         fontWeight: isActive ? "bold" : "",
+                         color: isPending ? "green" : "white",
+                         viewTransitionName: isTransitioning ? "slide" : "",
+                       };
+                     }}
+            >Portfolio</NavLink>
+          </li>
         </ul>
       </div>
     </nav>

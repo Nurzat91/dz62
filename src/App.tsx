@@ -3,9 +3,11 @@ import Books from "./components/Books/Books";
 import Toolbar from "./components/Toolbar/Toolbar";
 import Anime from "./components/Cartoons/Anime";
 import Movies from "./components/Movies/Movies";
+import Portfolio from "./containers/Portfolio/Portfolio";
+import Game from "./containers/Game/Game";
+import BallGame from "./containers/BallGame/BallGame";
 
 function App() {
-
 
   return (
     <>
@@ -26,6 +28,13 @@ function App() {
             path="/movies" element={(
             <Movies/>
           )}/>
+          <Route path="/portfolio" element={(
+            <Portfolio/>
+          )}>
+            <Route path="game" element={<Game/>}/>
+            <Route path="lottery-game" element={<BallGame/>}/>
+          </Route>
+          <Route path="*" element={(<h1>Not Found!</h1>)}/>
         </Routes>
       </main>
 
