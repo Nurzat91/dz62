@@ -9,7 +9,7 @@ const Toolbar = () => {
             <NavLink to="/" className="nav-link">Books</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/cartoons" className="nav-link">Cartoons</NavLink>
+            <NavLink to="/anime" className="nav-link">Anime</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/movies" className="nav-link">Movies</NavLink>

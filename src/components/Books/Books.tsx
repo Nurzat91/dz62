@@ -1,8 +1,8 @@
 
 const Books = () => {
   return (
-    <div className="d-flex">
-      <div className="card m-2" style={{width: "30%"}}>
+    <div className="d-flex justify-content-between">
+      <div className="card mt-3" style={{width: "30%"}}>
         <img style={{width: "388px", height:"500px"}} src="https://upload.wikimedia.org/wikipedia/ru/8/83/One_Hundred_Years_of_Solitude.jpg" alt="Сто лет одиночества"/>
         <h2 className="p-1 text-center"> Габриэля Гарсиа Маркеса</h2>
         <h3 className="p-1 text-center">Сто лет одиночества</h3>
@@ -11,7 +11,7 @@ const Books = () => {
           когда автор посетил свою родную деревню Аракатака в компании матери.
         </span>
       </div>
-      <div className="card m-2" style={{width: "30%"}}>
+      <div className="card mt-3" style={{width: "30%"}}>
         <img style={{width: "388px", height:"500px"}} src="https://upload.wikimedia.org/wikipedia/ru/8/82/%D0%91%D1%80%D0%B0%D1%82%D1%81%D1%82%D0%B2%D0%BE_%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%B0.gif" alt="Властели́н коле́ц"/>
         <h2 className="p-1 text-center">Дж. Р. Р. Толкин</h2>
         <h3 className="p-1 text-center">Властели́н коле́ц</h3>
@@ -21,7 +21,7 @@ const Books = () => {
           «Две крепости» и «Возвращение короля».
         </span>
       </div>
-      <div className="card m-2" style={{width: "30%"}}>
+      <div className="card mt-3" style={{width: "30%"}}>
         <img style={{width: "388px", height:"500px"}} src="https://upload.wikimedia.org/wikipedia/ru/thumb/5/50/Oldman_and_the_sea.jpg/406px-Oldman_and_the_sea.jpg" alt="Стари́к и мо́ре"/>
         <h2 className="p-1 text-center">	Эрнест Хемингуэй</h2>
         <h3 className="p-1 text-center">Стари́к и мо́ре</h3>

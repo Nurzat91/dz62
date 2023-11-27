@@ -1,7 +1,7 @@
 import {Route, Routes} from "react-router-dom";
 import Books from "./components/Books/Books";
 import Toolbar from "./components/Toolbar/Toolbar";
-import Cartoons from "./components/Cartoons/Cartoons";
+import Anime from "./components/Cartoons/Anime";
 import Movies from "./components/Movies/Movies";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
             <Books/>
           )}/>
           <Route
-            path="/cartoons" element={(
-            <Cartoons/>
+            path="/anime" element={(
+            <Anime/>
           )}/>
           <Route
             path="/movies" element={(
